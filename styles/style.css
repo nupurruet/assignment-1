@@ -1,0 +1,151 @@
+/* Global styles */
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Adjust weight as needed */
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+  
+  .btn-primary {
+      float: right;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: #333;
+      color: white;
+      padding: 10px 20px;
+      font-size: 1em;
+  }
+  
+  nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin: 20px 0;
+  }
+  
+  body, html {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      font-family: Arial, sans-serif;
+  }
+  
+  .background {
+      background-image: url('../assets/Hero-bg.png');
+      background-size: cover; 
+      background-position: center;
+      width: 100%;
+      height: 652px; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      
+  }
+  
+  .content {
+      max-width: 800px; 
+      padding: 20px;
+      border-radius: 10px;
+     
+      text-align: center;
+  }
+  
+  .icon {
+      width: 240px; 
+      height: auto; 
+      margin-bottom: 20px;
+  }
+  
+  h1 {
+      font-size: 3em; 
+      margin: 20px 0;
+      color: #333;
+  }
+  
+  .container {
+      margin: 20px auto; 
+      max-width: 800px; 
+      text-align: center;
+  }
+  
+  .card {
+      display: flex;
+      align-items: center;
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img-1 {
+      width: 200px;
+      height: auto;
+      margin-right:0 20px; 
+      border-radius: 10px;
+      float: right;
+
+  }
+  
+  .card-content {
+      flex: 1;
+  }
+  
+  .card-content h2 {
+      font-size: 1.5em; 
+      color: #333;
+      margin-bottom: 10px;
+  }
+  
+  .card-content p {
+      font-size: 1em;
+      color: #777;
+      margin-bottom: 20px;
+  }
+  .inspiration{
+    text-align: center;
+    
+  }
+  .target{
+    text-align: center;
+    
+  }
+  .s-title{
+    text-align: center;
+  }
+  .p-para{
+    text-align: center;
+  }
+  .vedio{
+    border: 2px solid red;
+    border-radius: 25px;
+  }
+  
+  button {
+      padding: 10px 20px;
+      background-color: #333;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+      transition: background-color 0.3s ease;
+  }
+  .target-c{
+    display: flex;
+    gap: 26px;
+  }
+  
+  button:hover {
+      background-color: #555;
+  }
+  
+ 
+  .card:nth-child(even) {
+      flex-direction: row-reverse;
+  }
+  
