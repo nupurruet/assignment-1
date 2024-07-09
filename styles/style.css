@@ -155,14 +155,15 @@
   }
   .support{
     background-image: url('../assets/handshake.jpg');
-
+background-size: cover;
+background-position: center;
     width: 1140px;
     height: 312px; 
-    display: flex;
+   flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 48px 64px;
+    padding: 20px 30px;
     margin: 32px;
 
   }
