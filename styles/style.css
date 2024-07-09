@@ -2,7 +2,7 @@
 .open-sans-normal {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400; /* Adjust weight as needed */
+    font-weight: 400; 
     font-style: normal;
     font-variation-settings: "wdth" 100;
   }
@@ -19,11 +19,11 @@
   }
   
   nav {
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      margin: 20px 0;
-  }
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0;
+}
   
   body, html {
       margin: 0;
@@ -123,6 +123,7 @@
   .vedio{
     border: 2px solid red;
     border-radius: 25px;
+    margin: 48px;
   }
   
   button {
@@ -139,7 +140,86 @@
     display: flex;
     gap: 26px;
   }
+  .targets-1{
+    padding: 30px;
+    background-color:rgba(255, 76,30, 5%);
+  }
+  .targets-2{
+    padding: 30px;
+    
+    background-color:rgba(0, 76,232, 5%);
+  }
+  .targets-3{
+    padding: 30px;
+    background-color:rgba(255,233,0, 5%);
+  }
+  .support{
+    background-image: url('../assets/handshake.jpg');
+
+    width: 1140px;
+    height: 312px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 48px 64px;
+    margin: 32px;
+
+  }
+  .s-text{
+
+
+        margin-bottom: 16px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        font-family: 'Azeret Mono';
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 1.125;
+        color: #FFFFFF;
+        flex-direction: row;
+      
+
+  }
+ 
+  .last{
+    
+     
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 0px 32px;
+      width: 1440px;
+      box-sizing: border-box;
+
+    
+  }
   
+  .fb{
+    width: 32px;
+    height: 32px;
+    box-sizing: border-box;
+  }
+  .git{
+    width: 36px;
+    height: 36px;
+    box-sizing: border-box;
+    
+  }
+  .lin{
+    width: 36px;
+    height: 36px;
+    box-sizing: border-box;
+    
+  }
+  .l-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0;
+    gap:10px;
+}
   button:hover {
       background-color: #555;
   }
